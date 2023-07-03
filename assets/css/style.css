@@ -1,0 +1,136 @@
+:root {
+    --white: #F2DEC4;
+    --black: #0c0a09;
+    --aqua: #2EA6A6;
+    --offAqua: #278C82;
+    --lightAqua: #60A6A6;
+    --green: #D5D9BA;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins&display=swap');
+
+@font-face {
+    font-family: Collage;
+    src: url(assets/fonts/RetromaVibes.ttf);
+}
+
+body {
+    margin: 0;
+    color: var(--black);
+    background-color: var(--white);
+    background-image: url("https://www.transparenttextures.com/patterns/dark-denim.png");
+}
+
+.initial {
+    height: calc(100vh - 3rem);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.initial .title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.initial h1 {
+    font-family: Collage;
+    font-size: 200px;
+    line-height: 100px;
+    margin: 0;
+}
+
+.initial span {
+    font-family: 'Bebas Neue', sans-serif;
+    writing-mode: vertical-lr;
+    font-size: 100px;
+    line-height: 60px;
+}
+
+.initial h2 {
+    font-family: 'Bebas Neue', sans-serif;
+    margin: 10px 0;
+    font-size: 60px;
+}
+
+.about {
+    display: flex;
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.about .column1 {
+    width: 40%;
+    padding: 1rem;
+}
+
+.about .column2 {
+    width: 60%;
+    padding: 1rem;
+}
+
+.about h1 {
+    font-size: 70px;
+    border-bottom: solid var(--black) 3px;
+    margin: 2rem 0;
+}
+
+.about li {
+    list-style: none;
+    margin-bottom: 2rem;
+}
+
+.about ul {
+    display: flex;
+    padding: 0;
+}
+
+.about .skills {
+    display: grid;
+    grid-template-columns: repeat(3, 3fr);
+}
+
+.about .skills img {
+    height: 30px;
+    width: auto;
+    padding-right: 1rem;
+}
+
+.skills li {
+    display: flex;
+}
+
+.skills .icon {
+    width: 46px;
+    display: flex;
+    justify-content: center;
+}
+
+.exp {
+    display: flex;
+    font-family: 'Poppins', sans-serif;
+}
+.exp h2, h3{
+    font-family: 'Bebas Neue', sans-serif;
+}
+
+.exp div:nth-child(2){
+    border-left: solid var(--black) 3px;
+}
+
+.exp .column {
+    width: 50%;
+    padding: 2rem 5rem;
+}
+
+.projects {
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+    font-family: 'Poppins', sans-serif;
+}
+.projects h1{
+    font-family: Collage;
+    font-size: 7rem;
+    margin: 2rem;
+}
