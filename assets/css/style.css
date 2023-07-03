@@ -44,14 +44,19 @@ body {
 .initial span {
     font-family: 'Bebas Neue', sans-serif;
     writing-mode: vertical-lr;
-    font-size: 100px;
+    font-size: 60px;
     line-height: 60px;
 }
 
 .initial h2 {
     font-family: 'Bebas Neue', sans-serif;
-    margin: 10px 0;
-    font-size: 60px;
+    margin: 3px 0;
+    font-size: 30px;
+}
+
+.initial header {
+    display: flex;
+    justify-content: space-between;
 }
 
 .about {
