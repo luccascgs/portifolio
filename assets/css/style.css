@@ -27,7 +27,7 @@ body {
     margin: 0;
     color: var(--black);
     font-family: 'Poppins', sans-serif;
-    background-color: var(--bgWhite);
+    background-color: var(--white);
     background-image: url("https://www.transparenttextures.com/patterns/dark-denim.png");
     mix-blend-mode: multiply;
 }
@@ -42,7 +42,7 @@ h3 {
 }
 
 .initial {
-    height: calc(100vh - 3rem);
+    height: calc(100vh);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -90,16 +90,19 @@ h3 {
 nav {
     position: sticky;
     margin: 3rem 0 0 0;
-    height: 70px;
     width: 100%;
     top: 0;
+}
+
+nav .nav {
+    height: 70px;
     display: flex;
     justify-content: space-between;
     align-items: center;
     font-family: 'Bebas Neue', sans-serif;
     font-size: 25px;
-    background-color: var(--black);
-    color: var(--white);
+    background-color: hsl(0, 0%, 100%);
+    color: var(--black);
 }
 
 nav ul {
@@ -125,11 +128,25 @@ nav .logo {
 
 nav a {
     text-decoration: none;
-    color: var(--white);
+    color: var(--black);
+}
+
+.torn {
+    content: ' ';
+    width: 100%;
+    height: 20px;
+    background-image: url('../images/torn.svg');
+    background-size: contain;
 }
 
 .about {
     display: flex;
+}
+
+.pic {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 
 .about .column1 {
@@ -215,6 +232,7 @@ h3 {
 }
 
 .projects {
+    background-color: var(--bgWhite);
     padding: 3rem;
     font-family: 'Poppins', sans-serif;
 }
