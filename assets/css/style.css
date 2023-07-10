@@ -139,14 +139,6 @@ nav a {
     background-size: contain;
 }
 
-.rip {
-    content: " ";
-    width: 100%;
-    height: 100px;
-    background-image: url('../images/rip.svg');
-    background-size: contain;
-}
-
 .about {
     display: flex;
 }
