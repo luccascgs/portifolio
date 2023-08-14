@@ -1,2 +1,2 @@
 # portifolio
-Este repositório irá conter o meu currículo
+Este repositório irá conter o meu currículo 😀
